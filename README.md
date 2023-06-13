@@ -60,10 +60,10 @@ import underscorePath from "@hugoalh/underscore-path";// Default Import (Functio
 #### Interface / Type
 
 - ```ts
-  interface UnderscorePathOutput = {
+  interface UnderscorePathOutput {
     __dirname: string;
     __filename: string;
-  };
+  }
   ```
 
 ### Example
