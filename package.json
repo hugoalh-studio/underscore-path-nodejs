@@ -1,7 +1,7 @@
 {
 	"name": "@hugoalh/underscore-path",
 	"version": "1.0.2",
-	"description": "A module to bring back `__dirname` and `__filename` within 2 lines.",
+	"description": "A module that bring back `__dirname` and `__filename` within 2 lines of code.",
 	"keywords": [
 		"__dirname",
 		"__filename"
