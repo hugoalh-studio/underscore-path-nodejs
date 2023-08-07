@@ -8,6 +8,8 @@ export interface UnderscorePathOutput {
  * Bring back `__dirname` and `__filename` within 2 lines.
  * @param {string} importMetaURL Insert `import.meta.url`.
  * @returns {UnderscorePathOutput} Output.
+ * @example
+ * const { __dirname, __filename } = underscorePath(import.meta.url);
  */
 export function underscorePath(importMetaURL: string): UnderscorePathOutput {
 	let __filename: string = fileURLToPath(importMetaURL);

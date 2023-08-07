@@ -42,14 +42,9 @@ import underscorePath from "@hugoalh/underscore-path";// Default Import (Functio
 
 ### API
 
-#### Function
-
 - ```ts
-  underscorePath(importMetaURL: string): UnderscorePathOutput;
+  function underscorePath(importMetaURL: string): UnderscorePathOutput;
   ```
-
-#### Interface / Type
-
 - ```ts
   interface UnderscorePathOutput {
     __dirname: string;
