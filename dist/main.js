@@ -8,8 +8,8 @@ import { fileURLToPath } from "node:url";
  * const { __dirname, __filename } = underscorePath(import.meta.url);
  */
 export function underscorePath(importMetaURL) {
-    let __filename = fileURLToPath(importMetaURL);
-    let __dirname = pathDirname(__filename);
+    const __filename = fileURLToPath(importMetaURL);
+    const __dirname = pathDirname(__filename);
     return {
         __dirname,
         __filename

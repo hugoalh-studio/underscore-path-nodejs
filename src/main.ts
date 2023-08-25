@@ -12,8 +12,8 @@ export interface UnderscorePathOutput {
  * const { __dirname, __filename } = underscorePath(import.meta.url);
  */
 export function underscorePath(importMetaURL: string): UnderscorePathOutput {
-	let __filename: string = fileURLToPath(importMetaURL);
-	let __dirname: string = pathDirname(__filename);
+	const __filename: string = fileURLToPath(importMetaURL);
+	const __dirname: string = pathDirname(__filename);
 	return {
 		__dirname,
 		__filename
