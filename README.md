@@ -24,24 +24,25 @@ import underscorePath from "@hugoalh/underscore-path";
 const { __dirname, __filename } = underscorePath(import.meta.url);
 ```
 
-## 📓 Documentation
+## 🔰 Begin
 
-### Getting Started
+### NodeJS
 
-- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/underscore-path)
+    ```sh
+    npm install @hugoalh/underscore-path
+    ```
+    ```js
+    import ... from "@hugoalh/underscore-path";
+    ```
 
-```sh
-npm install @hugoalh/underscore-path
-```
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
 
-```js
-/* Either */
-import { ... } from "@hugoalh/underscore-path";// Named Import
-import * as underscorePath from "@hugoalh/underscore-path";// Namespace Import
-import underscorePath from "@hugoalh/underscore-path";// Default Import (Function `underscorePath`)
-```
-
-### API
+## 🧩 API
 
 - ```ts
   function underscorePath(importMetaURL: string): UnderscorePathOutput;
@@ -53,7 +54,9 @@ import underscorePath from "@hugoalh/underscore-path";// Default Import (Functio
   }
   ```
 
-### Example
+> **ℹ️ Notice:** Documentation is included inside the script file.
+
+## ✍️ Example
 
 - ```js
   const { __dirname, __filename } = underscorePath(import.meta.url);
