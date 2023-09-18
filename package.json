@@ -23,7 +23,7 @@
 		"url": "git+https://github.com/hugoalh-studio/underscore-path-nodejs.git"
 	},
 	"devDependencies": {
-		"@types/node": "^20.6.0",
+		"@types/node": "^20.6.2",
 		"@typescript-eslint/eslint-plugin": "^6.7.0",
 		"@typescript-eslint/parser": "^6.7.0",
 		"eslint": "^8.49.0",
