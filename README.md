@@ -36,7 +36,7 @@ const { __dirname, __filename } = underscorePath(import.meta.url);
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/underscore-path)
     ```sh
-    bun add @hugoalh/underscore-path
+    bun add @hugoalh/underscore-path[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/underscore-path[@<Tag>]";
@@ -52,7 +52,7 @@ const { __dirname, __filename } = underscorePath(import.meta.url);
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/underscore-path)
     ```sh
-    npm install @hugoalh/underscore-path
+    npm install @hugoalh/underscore-path[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/underscore-path";
