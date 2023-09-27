@@ -20,7 +20,7 @@ const __dirname = dirname(__filename);
 
 ```js
 /* 🙂 */
-import underscorePath from "@hugoalh/underscore-path";
+import { underscorePath } from "@hugoalh/underscore-path";
 const { __dirname, __filename } = underscorePath(import.meta.url);
 ```
 
