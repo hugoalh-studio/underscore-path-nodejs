@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/underscore-path",
-	"version": "1.0.4",
+	"version": "2.0.0",
 	"description": "A module to bring back `__dirname` and `__filename` within 2 lines of code.",
 	"keywords": [
 		"__dirname",
@@ -23,15 +23,16 @@
 		"url": "git+https://github.com/hugoalh-studio/underscore-path-nodejs.git"
 	},
 	"devDependencies": {
-		"@types/node": "^20.10.7",
-		"@typescript-eslint/eslint-plugin": "^6.18.0",
-		"@typescript-eslint/parser": "^6.18.0",
+		"@stylistic/eslint-plugin": "^1.5.3",
+		"@types/node": "^20.10.8",
+		"@typescript-eslint/eslint-plugin": "^6.18.1",
+		"@typescript-eslint/parser": "^6.18.1",
 		"eslint": "^8.56.0",
 		"eslint-plugin-only-warn": "^1.1.0",
 		"typescript": "^5.3.3"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.15.0 || >=16.13.0"
+		"node": ">=16.13.0"
 	},
 	"private": false,
 	"publishConfig": {
