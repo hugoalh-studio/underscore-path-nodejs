@@ -10,9 +10,6 @@ import { fileURLToPath } from "node:url";
 export function underscorePath(importMetaURL) {
     const __filename = fileURLToPath(importMetaURL);
     const __dirname = pathDirname(__filename);
-    return {
-        __dirname,
-        __filename
-    };
+    return { __dirname, __filename };
 }
 export default underscorePath;

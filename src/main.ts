@@ -14,9 +14,6 @@ export interface UnderscorePathOutput {
 export function underscorePath(importMetaURL: string): UnderscorePathOutput {
 	const __filename: string = fileURLToPath(importMetaURL);
 	const __dirname: string = pathDirname(__filename);
-	return {
-		__dirname,
-		__filename
-	};
+	return { __dirname, __filename };
 }
 export default underscorePath;
