@@ -72,7 +72,7 @@ const { __dirname, __filename } = underscorePath(import.meta.url);
 > - Deno
 
 1. Import at the script (`<ScriptName>.js`):
-    ```ts
+    ```js
     import ... from "npm:@hugoalh/underscore-path[@<Tag>]";
     ```
     > **ℹ️ Note**
