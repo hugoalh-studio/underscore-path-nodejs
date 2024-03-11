@@ -28,9 +28,20 @@ const { __dirname, __filename } = underscorePath(import.meta.url);
 
 - Bun ^ v1.0.0
 - Cloudflare Workers
+- Deno >= v1.34.0
+  > **🛡️ Require Permission**
+  >
+  > *N/A*
 - NodeJS >= v16.13.0
 
 ## 🔰 Usage
+
+### Via Installation
+
+> **🎯 Supported Target**
+>
+> - Cloudflare Workers
+> - NodeJS
 
 1. Install via console/shell/terminal:
     - Via NPM
@@ -48,6 +59,21 @@ const { __dirname, __filename } = underscorePath(import.meta.url);
 2. Import at the script (`<ScriptName>.js`):
     ```js
     import ... from "@hugoalh/underscore-path";
+    ```
+    > **ℹ️ Note**
+    >
+    > Although it is recommended to import the entire module, it is also able to import part of the module with sub path if available, please visit [file `package.json`](./package.json) property `exports` for available sub paths.
+
+### Via NPM Specifier
+
+> **🎯 Supported Target**
+>
+> - Bun
+> - Deno
+
+1. Import at the script (`<ScriptName>.js`):
+    ```ts
+    import ... from "npm:@hugoalh/underscore-path[@<Tag>]";
     ```
     > **ℹ️ Note**
     >
